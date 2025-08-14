@@ -13,6 +13,10 @@
     --gallery-pane-height: 100vh;
   }
 
+  body.hidden > #gallery-panel {
+    transform: translateX(0);
+  }
+
   body.hidden > #viewer {
     transform: translateX(0) translateY(100%);
   }

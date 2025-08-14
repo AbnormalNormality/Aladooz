@@ -46,7 +46,7 @@ function loadGallery() {
     function handleSlideEvent(event: PointerEvent) {
       if (event.button === 0) {
         if (location.hash.substring(1) !== p) location.hash = p;
-        else if (html.hasAttribute("portrait")) location.hash = "";
+        else location.hash = "";
       } else if (event.button === 2) slide.classList.toggle("highlight");
     }
 

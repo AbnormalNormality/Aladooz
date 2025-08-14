@@ -14,7 +14,7 @@ function loadGallery() {
             if (event.button === 0) {
                 if (location.hash.substring(1) !== p)
                     location.hash = p;
-                else if (html.hasAttribute("portrait"))
+                else
                     location.hash = "";
             }
             else if (event.button === 2)
