@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-colour: #fff;
+    --border-colour: #222;
+
+    --background-colour: #555;
+    --gallery-colour: #777;
+    --viewer-colour: #777;
+    --sub-colour: #555;
+  }
+
+  .slide {
+    --inside-1: var(--type1-foreground);
+    --inside-2: var(--type2-foreground);
+
+    --outside-1: var(--type1-background);
+    --outside-2: var(--type2-background);
+  }
+
+  #viewer {
+    --inside-1: var(--type1-foreground);
+    --inside-2: var(--type2-foreground);
+
+    --outside-1: var(--type1-background);
+    --outside-2: var(--type2-background);
+  }
+}

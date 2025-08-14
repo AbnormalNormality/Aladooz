@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="./" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Aladooz</title>
+    <link rel="icon" href="assets/favicon.png" type="image.png" />
+
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <link rel="stylesheet" href="src/styles/compatability.css" />
+    <link rel="stylesheet" href="src/styles/dark.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <script type="module" src="src/scripts/main.js"></script>
+  </head>
+
+  <body>
+    <div id="gallery-panel">
+      <div id="gallery-outer">
+        <div id="gallery"></div>
+      </div>
+
+      <div id="search-bar-wrapper">
+        <input
+          id="search-bar"
+          type="text"
+          placeholder="Fire, Mega Launcher"
+          title="Custom search terms: highlighted, incomplete"
+        />
+
+        <div id="sort">
+          <select id="order" value="reveal">
+            <option value="reveal">Reveal</option>
+            <option value="revealReverse">Reverse Reveal</option>
+            <option value="alphabetical">Alphabetical</option>
+            <option value="type">Type</option>
+            <option value="nationalDex">National Dex</option>
+          </select>
+
+          <input type="checkbox" id="reverse" />
+          <label for="reverse"></label>
+        </div>
+      </div>
+
+      <div id="options-wrapper">
+        <div id="options">
+          <div>
+            <span>Cool Stuff</span>
+            <input type="checkbox" id="cool-stuff-toggle" />
+            <label for="cool-stuff-toggle"></label>
+          </div>
+
+          <div>
+            <span>
+              All forms by
+              <a href="https://www.youtube.com/@doozsromhacks" target="_blank">
+                Dooz
+              </a>
+            </span>
+
+            <span>
+              and are available publicly in
+              <a href="https://www.discord.gg/2wgfHBGAtH" target="_blank">
+                The Doozcord
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="viewer">
+      <div class="name-wrapper">
+        <div class="name"></div>
+        <div class="title"></div>
+      </div>
+      <div class="image-wrapper">
+        <img class="image" loading="lazy" draggable="false" />
+      </div>
+      <div class="types"></div>
+      <div class="abilities"></div>
+      <div class="entries-panel">
+        <div class="entries-outer">
+          <div class="entries"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,618 @@
+{
+  "clauncher": {
+    "name": "Clauncher",
+    "title": "Decoy Shell",
+    "image": "assets/clauncher.webp",
+    "types": ["bug", "fire"],
+    "abilities": ["megaLauncher", "rapidFire", "stormDrain"],
+    "entries": [
+      "Remix Clauncher puffs up its claws and fans its tail in a serpentine display meant to mimic dragons. If intimidations fails, it unleashes high-heat bursts from tis blaster claw, occasionally igniting its own shell in the process as its shell has not fully developed to handle the intense heat"
+    ],
+    "evolvesInto": ["clawitzer"]
+  },
+  "clawitzer": {
+    "name": "Clawitzer",
+    "title": "Inferno Shrimp",
+    "image": "assets/clawitzer.webp",
+    "types": ["bug", "fire"],
+    "abilities": ["megaLauncher", "rapidFire", "stormDrain"],
+    "entries": [
+      "This variant of Clawitzer has evolved to mimic a threatening dragon's appearance to ward off larger predators. They can still manuever through water with ease.",
+      "Despite not being a Dragon-type, this crustacean has the firepower to back up its intimidating appearance! This firepower is useful for burning up prey too!"
+    ],
+    "evolvesFrom": ["clauncher"]
+  },
+  "combee": {
+    "name": "Combee",
+    "title": "Toxic Drone",
+    "image": "assets/combee.webp",
+    "types": ["fairy", "poison"],
+    "abilities": ["levitate", "merciless", "berserk"],
+    "entries": [
+      "This variant of Combee gives off a faint floral scent that lures curious Pokémon close—only to inflict them with an unsavory neurotoxin. Each face takes turns smiling.",
+      "The various heads of this Combee vary in their mood. Some seem to enjoy inflicting pain, while others are in distress watching their fellow Combee take pleasure in this pain."
+    ],
+    "evolvesInto": ["vespiquen"]
+  },
+  "vespiquen": {
+    "name": "Vespiquen",
+    "title": "Malevolent Queen",
+    "image": "assets/vespiquen.webp",
+    "types": ["fairy", "poison"],
+    "abilities": ["levitate", "merciless", "berserk"],
+    "entries": [
+      "Remix Combee will supply Vespiquen with the proper diet to fuel her neurotoxin. If she is interrupted while feeding, she will lash out without mercy.",
+      "It brews its own potent neurotoxin within their body. When injected, this neurotoxin will cause intense infatuation, madness, and pain.",
+      "Vespiquen's remix form no longer needs to physically command her swarm—her pheromones alone are enough to keep her Combee in submission."
+    ],
+    "evolvesFrom": ["combee"]
+  },
+  "nidoranF": {
+    "name": "Nidoran ♀",
+    "title": "Toxic Charm",
+    "image": "assets/nidoranF.webp",
+    "types": ["fairy", "poison"],
+    "abilities": ["barbed", "pixilate", "battleArmour"],
+    "entries": [
+      "Small but dangerous, this Nidoran variant uses its cutesy appearance to lure enemies close before striking with its poison tipped spikes or claws. The poison it secretes has a glittery sheen."
+    ],
+    "evolvesInto": ["nidorina"]
+  },
+  "nidorina": {
+    "name": "Nidorina",
+    "title": "Venom Guard",
+    "image": "assets/nidorina.webp",
+    "types": ["fairy", "poison"],
+    "abilities": ["barbed", "pixilate", "battleArmour"],
+    "entries": [
+      "This Pokémon forms close-knit groups with others of its kind, acting as a protector with toxic force. Its soft appearance hides sharp instincts and sharper spikes."
+    ],
+    "evolvesInto": ["nidoqueen"],
+    "evolvesFrom": ["nidoranF"]
+  },
+  "nidoqueen": {
+    "name": "Nidoqueen",
+    "title": "Matriarch",
+    "image": "assets/nidoqueen.webp",
+    "types": ["fairy", "ground"],
+    "abilities": ["poisonHeal", "pixilate", "battleArmour"],
+    "entries": [
+      "Though no longer Poison-type, this Nidoqueen secretes healing toxins through her skin to heal herself. However, this poison is still deadly to those outside of her species.",
+      "Nidoqueen's nurturing presence is only matched by her brutal physical strength—especially when defending her territory. Her hard plated breast armor is especially durable."
+    ],
+    "evolvesFrom": ["nidorina"]
+  },
+  "nidoranM": {
+    "name": "Nidoran ♂",
+    "title": "Shock Spine",
+    "image": "assets/nidoranM.webp",
+    "types": ["poison", "electric"],
+    "abilities": ["merciless", "galvanise", "barbed"],
+    "entries": [
+      "Its tiny body stores enough voltage to knock out a full grown Kangaskhan, and it still has venom potent enough to put one on its back! Trainers often report strange tingling sensations after petting it—despite repeated warnings."
+    ],
+    "evolvesInto": ["nidorino"]
+  },
+  "nidorino": {
+    "name": "Nidorino",
+    "title": "Horn Generator",
+    "image": "assets/nidorino.webp",
+    "types": ["poison", "electric"],
+    "abilities": ["merciless", "galvanise", "barbed"],
+    "entries": [
+      "This Pokemon wields both venom and electricity as defense mechanisms. They are highly aggressive and quick to anger. The angrier it gets, the brighter their vents glow."
+    ],
+    "evolvesInto": ["nidoking"],
+    "evolvesFrom": ["nidoranM"]
+  },
+  "nidoking": {
+    "name": "Nidoking",
+    "title": "Thunder Crash",
+    "image": "assets/nidoking.webp",
+    "types": ["electric", "ground"],
+    "abilities": ["poisonHeal", "toxicBoost", "quickFeet"],
+    "entries": [
+      "Despite not being Poison type, venom still courses through its body and can be weaponized for offense, or used to heal itself and fuel its electric energy.",
+      "Nidoking's power output triples when poisoned and it becomes even faster and more aggressive. It has been witnessed intentionally poisoning itself in the wild to win territorial battles against other Nidoking."
+    ],
+    "evolvesFrom": ["nidorino"]
+  },
+  "ponyta": {
+    "name": "Ponyta",
+    "title": "Wisp Colt",
+    "image": "assets/ponyta.webp",
+    "types": ["ghost", "fairy"],
+    "abilities": ["flashFire", "flareBoost"],
+    "entries": [
+      "This mystical Pokémon gallops silently through moonlight, its body trailing pale embers. Children who follow its glow often wake up miles from home, unable to explain how they got there."
+    ],
+    "evolvesInto": ["rapidash"]
+  },
+  "rapidash": {
+    "name": "Rapidash",
+    "title": "Phantom Blaze",
+    "image": "assets/rapidash.webp",
+    "types": ["ghost", "fairy"],
+    "abilities": ["flashFire", "flareBoost"],
+    "entries": [
+      "Remix Rapidash's body pulses with a strange inner fire. Though it no longer bears real flame, its heatless blaze scorches only the soul, not the skin.",
+      "With every step, this Pokémon burns away the veil between dimensions. Its hooves leave behind trails of spectral ash that shimmer briefly before vanishing into the air.",
+      "It has been said in legends that this Pokemon can escort people and other Pokemon to the afterlife."
+    ],
+    "evolvesFrom": ["ponyta"]
+  },
+  "abra": {
+    "name": "Abra",
+    "title": "Vanilla Sprinkle",
+    "image": "assets/abra.webp",
+    "types": ["ice", "fairy"],
+    "abilities": ["refrigerate", "pixilate", "wimpOut"],
+    "entries": [
+      "Trainers who bond with it claim to hear faint jingles—like an ice cream truck approaching—from nowhere.",
+      "Scientists have discovered that Abra's sense of smell is specially adapted to detect the smell of ice cream from a massive distance."
+    ],
+    "evolvesInto": ["kadabra"]
+  },
+  "kadabra": {
+    "name": "Kadabra",
+    "title": "Chocolate Swirl",
+    "image": "assets/kadabra.webp",
+    "types": ["ice", "fairy"],
+    "abilities": ["refrigerate", "pixilate", "steelworker"],
+    "entries": [
+      "Kadabra's tail is coated in a thick syrup-like substance that smells strongly of chocolate. Its spoon glows when it prepares to launch bursts of energy.",
+      "Kadabra's waffle cone armor is surprisingly durable, but is easily melted by fire."
+    ],
+    "evolvesInto": ["alakazam"],
+    "evolvesFrom": ["abra"]
+  },
+  "alakazam": {
+    "name": "Alakazam",
+    "title": "Mint Chip",
+    "image": "assets/alakazam.webp",
+    "types": ["ice", "steel"],
+    "abilities": ["refrigerate", "steelworker", "weakArmour"],
+    "entries": [
+      "It screams at the top of its lungs when it gets excited. What excites them? Ice cream, of course!",
+      "Kadabra especially skilled at wielding spoons are said to evolve into Alakazam when they learn to fuse the metal from the spoon into armor."
+    ],
+    "evolvesInto": ["megaAlakazam"],
+    "evolvesFrom": ["kadabra"]
+  },
+  "megaAlakazam": {
+    "name": "Mega Alakazam",
+    "title": "Neapolitan Bliss",
+    "image": "assets/megaAlakazam.webp",
+    "types": ["fairy", "steel"],
+    "abilities": ["refrigerate", "steelworker", "levitate"],
+    "entries": [
+      "Upon Mega Evolution, it absorbs the elemental energy of its previous forms. The strawberry gem on its head glows when it's about to attack.",
+      "Mega Alakazam's beard is made of a magical ice cream that never runs out. Mega Alakazam can live in a state of true bliss knowing its constant craving for ice cream will always be satiated- and their body metabolizes it so quickly they never gain weight!"
+    ],
+    "evolvesFrom": ["alakazam"]
+  },
+  "vanillite": {
+    "name": "Vanillite",
+    "title": "Sad Cream",
+    "image": "assets/vanillite.webp",
+    "types": ["ice", "poison"],
+    "abilities": ["levitate", "waterAbsorb", "weakArmour"],
+    "entries": [
+      "Though it resembles an innocent frozen treat, Remix Vanillite's tears are corrosive. It's often found alone, dripping in silence beneath overcast skies. Stay far away."
+    ],
+    "evolvesInto": ["vanillish"]
+  },
+  "vanillish": {
+    "name": "Vanillish",
+    "title": "Slush Rot",
+    "image": "assets/vanillish.webp",
+    "types": ["ice", "poison"],
+    "abilities": ["levitate", "waterAbsorb", "weakArmour"],
+    "entries": [
+      "Vanillish's constant stream of tears are said to be absorbed into its own body immediately, fueling itself in a perpetual state of sadness."
+    ],
+    "evolvesInto": ["vanilluxe"],
+    "evolvesFrom": ["vanillite"]
+  },
+  "vanilluxe": {
+    "name": "Vanilluxe",
+    "title": "Contagious Sundae",
+    "image": "assets/vanilluxe.webp",
+    "types": ["ice", "poison"],
+    "abilities": ["levitate", "waterAbsorb", "weakArmour"],
+    "entries": [
+      "This Vanilluxe is constantly in a state of misery due to how sick it has become. The sludge on its body smells foul and will infect anyone who touches it."
+    ],
+    "evolvesFrom": ["vanillish"]
+  },
+  "pyukumuku": {
+    "name": "Pyukumuku",
+    "title": "Bubble Machine",
+    "image": "assets/pyukumuku.webp",
+    "types": ["steel"],
+    "abilities": ["waterAbsorb", "unaware"],
+    "entries": [
+      "This bizarre form of Pyukumuku was discovered near a defunct facility once used to test aquatic technologies. Its body is lined with mechanical plating, and its strange inner appendage releases dense clouds of reactive foam.",
+      "Despite its menacing facial expression, this variant of Pyukumuku is relatively friendly and used in hot tubs, jacuzzis, and aquariums to create bubbles and filter water! Some speculate that Pyukumuku does not enjoy doing this, however.",
+      "Despite not normally evolving, this variant of Pyukumuku has potential to evolve into two vastly different Pokemon, one of which is helpful for research and the other is detrimental."
+    ],
+    "evolvesInto": ["qwilfish", "corsola"]
+  },
+  "qwilfish": {
+    "name": "Qwilfish",
+    "title": "Corroded Mine",
+    "image": "assets/qwilfish.webp",
+    "types": ["steel", "poison"],
+    "abilities": ["liquidVeil", "barbed", "rapidFire"],
+    "entries": [
+      "This Qwilfish variant drifts through polluted industrial zones, its body caked in rust and toxic grime. Its spines can inject metal-eating venom into anything they pierce.",
+      "This Pokémon was said to have absorbed industrial waste into its biology. Now, its very presence causes surrounding machinery to seize up and corrode.",
+      "This dangerous Pokemon is said to have been utilized and placed strategically during wars of the past. Ones that were not used became rusted and corroded over time, resulting in the species we see now."
+    ],
+    "evolvesFrom": ["pyukumuku"]
+  },
+  "corsola": {
+    "name": "Corsola",
+    "title": "Water Purifier",
+    "image": "assets/corsola.webp",
+    "types": ["water", "steel"],
+    "abilities": ["lightningRod", "electricSurge", "barbed"],
+    "entries": [
+      "The durable steel body of this Corsola is designed to purify water. The glowing rods on its limbs attract lightning, storing the charge to boost its power during storms.",
+      "This Pokemon is a valuable asset to environmentalists and researchers alike. It filters toxins from the sea, and its spikes emit an electrical field to ward off threats."
+    ],
+    "evolvesFrom": ["pyukumuku"]
+  },
+  "mareanie": {
+    "name": "Mareanie",
+    "title": "Voltage Spine",
+    "image": "assets/mareanie.webp",
+    "types": ["poison", "electric"],
+    "abilities": ["merciless", "regenerator", "stormDrain"],
+    "entries": [
+      "Mareanie in this form are drawn to electromagnetic seabeds where currents surge through mineral-rich waters. They store electrical energy in their gleaming golden spines, releasing sudden shocks into prey with surgical precision."
+    ],
+    "evolvesInto": ["toxipex"]
+  },
+  "toxipex": {
+    "name": "Toxipex",
+    "title": "Brutal Current",
+    "image": "assets/toxipex.webp",
+    "types": ["poison", "electric"],
+    "abilities": ["merciless", "regenerator", "stormDrain"],
+    "entries": [
+      "This fearsome predator specifically targets Doozian Remix Corsola—piercing through its armor-like plating with concentrated bioelectric bursts. However, Remix Corsola has adapted counter-mechanisms and can often absorb said electricity depending.",
+      "Swimmers and tourists are warned of these Pokemon when visiting beaches as to not accidentally step on one. It is said that stepping on one feels like a thousand lightning strikes, and the lingering poison and paralysis are even more unpleasant and can last for hours."
+    ],
+    "evolvesFrom": ["mareanie"]
+  },
+  "unown": {
+    "name": "Unown",
+    "title": "Dimensional Rift",
+    "image": "assets/unown.webp",
+    "types": ["psychic", "ghost"],
+    "abilities": ["energyShield", "magicBounce", "psychicSurge"],
+    "entries": [
+      "These Unown slipped into an Ultra Wormhole during a cosmic anomaly. What they saw shattered their former selves—now, a galaxy burns behind their eye, visible from the front and the back. They no longer form letters, but sigils of forgotten power.",
+      "Long term exposure to Ultra Space has awakened ancient knowledge within Unown. They resonate with forgotten relics like Remix Stantler and Sigilyph—and even draw the attention of Ultra Beasts. Some say they are the key to Stakataka's rebirth. Some researchers are drawing comparisons of it to Cosmog, but the research is currently inconclusive.",
+      "It's said that if a human stares too long into this Unown's cosmic eye, they begin to see things not meant for this world or things long forgotten—visions of Ultra Space, ancient glyphs, and unseen, evil spirits. Some describe it as a divine revelation; others are left hollow and a shell of their former selves. Entire ruins have been sealed off to prevent further contact."
+    ],
+    "evolvesInto": ["stantler"]
+  },
+  "stantler": {
+    "name": "Stantler",
+    "title": "Evil Eye",
+    "image": "assets/stantler.webp",
+    "types": ["ghost", "rock"],
+    "abilities": ["energyShield", "magicBounce"],
+    "entries": [
+      "Those who make direct eye contact with its horns or other eyes are said to forget their purpose. Ancient travelers painted symbols resembling it to ward off unseen spirits.",
+      "Many people own glass talismans, amulets and jewellery based off of this Stantler's mysterious yet beautiful appearance. It is believed they ward off spirits.",
+      "It is said that this variant of Stantler is always watching, no matter what angle you view it from. Whether or not it truly protects is doubted by some, but it has extreme cultural significance in certain regions.",
+      "This variant of Stantler is said to stand guard for ancient societies, and is a natural rival to Sigilyph. It is said that battles between Sigilyph & Stantler were a sight to behold."
+    ],
+    "evolvesFrom": ["unown"]
+  },
+  "tangela": {
+    "name": "Tangela",
+    "title": "Mindworm",
+    "image": "assets/tangela.webp",
+    "types": ["bug", "psychic"],
+    "abilities": ["analytic", "badDreams", "regenerator"],
+    "entries": [
+      "Tangela's body is a mass of parasitic brain-worms that never stop writhing and squirming. It wraps them around sleeping prey, siphoning dreams until only nightmares remain.",
+      "Each tendril operates like a rogue neuron. When Tangela feeds, its host experiences vivid hallucinations—often of writhing worms burrowing into their thoughts. Once latched onto a creature's mind, its “hair” worms dig into the psyche, feasting on memories and rewriting them with its own. Victims often wake up screaming with no idea why."
+    ],
+    "evolvesInto": ["tangrowth"]
+  },
+  "tangrowth": {
+    "name": "Tangrowth",
+    "title": "Cursed Serpent",
+    "image": "assets/tangrowth.webp",
+    "types": ["fairy", "dragon"],
+    "abilities": ["poisonHeal", "merciless", "multiscale"],
+    "entries": [
+      "Travelers speak of a woman cloaked in a mass of snakes, eyes glowing with divine punishment. Even the bravest Pokémon avert their gaze, lest their soul be “tangled” and lost forever. Her eyes shimmer with a hypnotic glow that paralyzes anything foolish enough to meet her gaze. Forests she inhabits are eerily silent—every living creature knows not to look up.",
+      "Long ago, a jealous monarch cast her into the wilderness, where her sorrow warped into fury. Now she rules the deep woods with a gaze that stills the body and shatters the will. It is said she doesn't need to chase her prey. One look, and they fall—mouth open, limbs stiff—left to rot in the roots as her serpentine hair and limbs slowly coil around them."
+    ],
+    "evolvesFrom": ["tangela"]
+  },
+  "farfetchd": {
+    "name": "Farfetch'd",
+    "title": "",
+    "image": "assets/farfetchd.webp",
+    "types": ["grass", "fire"],
+    "abilities": ["ruthless", "flashFire", "unburden"],
+    "entries": [
+      "A farfetch'd that narrowly escaped being served at a restaurant, they carry themselves with a chip on their shoulder. This Pokemon relies on its quick reflexes and strong will to get away from the other Pokemon constantly being attracted by its delicious scent and appearance.",
+      "This Farfetch'd variant smells delicious- like crispy roast duck, and faintly of smoked herbs. It proudly waves its charred leek like a baton daring predators and chefs alike to come closer. Whether or not this Pokemon continues to survive out of sheer spite, or survival ability is up for debate."
+    ]
+  },
+  "skorupi": {
+    "name": "Skorupi",
+    "title": "",
+    "image": "assets/skorupi.webp",
+    "types": ["bug", "ground"],
+    "abilities": ["sandRush", "poisonHeal", "toughClaws"],
+    "entries": [],
+    "evolvesInto": ["drapion"]
+  },
+  "drapion": {
+    "name": "Drapion",
+    "title": "Sand Demon",
+    "image": "assets/drapion.webp",
+    "types": ["bug", "ground"],
+    "abilities": ["sandRush", "poisonHeal", "toughClaws"],
+    "entries": [],
+    "evolvesFrom": ["skorupi"]
+  },
+  "whismur": {
+    "name": "Whismur",
+    "title": "Plasma Cell",
+    "image": "assets/whismur.webp",
+    "types": ["electric", "dragon"],
+    "abilities": ["galvanise", "amplifier", "multiscale"],
+    "entries": [
+      "A failed biotech experiment designed to absorb ambient noise and convert it into power. It now releases bursts of EM interference when startled.",
+      "Whismur's internal processors are too underdeveloped to contain its energy. The static discharge from its cries can cause technology nearby to malfunction."
+    ],
+    "evolvesInto": ["loudred"]
+  },
+  "loudred": {
+    "name": "Loudred",
+    "title": "Overload",
+    "image": "assets/loudred.webp",
+    "types": ["electric", "dragon"],
+    "abilities": ["galvanise", "amplifier", "multiscale"],
+    "entries": [
+      "Loudred absorbs sound and electricity and converts it using its specialized cells. It's not certain if it resulted from experimentation by Silph. Co, or is naturally this way.",
+      "When Loudred becomes excited, it becomes a hazard to public safety since it can cause Pokemon Centers within several miles to have power outages."
+    ],
+    "evolvesInto": ["exploud"],
+    "evolvesFrom": ["whismur"]
+  },
+  "exploud": {
+    "name": "Exploud",
+    "title": "Cataclysm",
+    "image": "assets/exploud.webp",
+    "types": ["electric", "dragon"],
+    "abilities": ["galvanise", "amplifier", "multiscale"],
+    "entries": [
+      "This Pokemon's mere presence is a danger to the human ear, and any technology within a 10 mile radius is at risk of being damaged just from its breath alone.",
+      "Many popular monster movies have been made where a Dynamaxed Remix Exploud terrorizes major cities like Castelia and Saffron city."
+    ],
+    "evolvesFrom": ["loudred"]
+  },
+  "aerodactyl": {
+    "name": "Aerodactyl",
+    "title": "",
+    "image": "assets/aerodactyl.webp",
+    "types": ["rock", "poison"],
+    "abilities": ["levitate", "strongJaw"],
+    "entries": [
+      "This Aerodactyl was preserved not in stone, but in ancient tar pits. It oozes toxic sludge from its wings and snaps at prey with jaws that never decayed, even after eons underground."
+    ],
+    "evolvesInto": ["megaAerodactyl"]
+  },
+  "megaAerodactyl": {
+    "name": "Mega Aerodactyl",
+    "title": "",
+    "image": "assets/megaAerodactyl.webp",
+    "types": ["rock", "fire"],
+    "abilities": ["levitate", "headstrong"],
+    "entries": [
+      "Upon Mega Evolution, Aerodactyl is consumed by the wrath of extinction. Once preserved in tar, now reborn in fire- it incinerates anything resembling the forces that ended its species."
+    ],
+    "evolvesFrom": ["aerodactyl"]
+  },
+  "omanyte": {
+    "name": "Omanyte",
+    "title": "Relic Shell",
+    "image": "assets/omanyte.webp",
+    "types": ["grass", "steel"],
+    "abilities": ["stormySeas", "magicBounce", "superLuck"],
+    "entries": [
+      "It is unknown whether or not this Pokemon's gemstones are organic and grow due to its diet or some mysterious power, or are picked out by Omastar itself. What is known, however, is that these are very rare creatures and often thought to be bringers of good luck. The more treasure it collects, the more sluggish its movements become. Its greed and desire to gather more gemstones mean its movement is constantly limited.",
+      "This semi-aquatic Pokemon crawls along the seafloor or jungle floor using its vine-like tendrils. The gems on its shell glint even in the pitch darkness of the deep sea or dense jungle, thought to attract both predators and treasure hunters- even pirates! This Pokemon's striking appearance makes it a popular choice amongst collectors or pirates alike. However, if someone captures one against its own will, it is said to summon an intense rainstorm capable of swamping any jungle adventurer, or sinking any ship."
+    ],
+    "evolvesInto": ["omastar"]
+  },
+  "omastar": {
+    "name": "Omastar",
+    "title": "Lost Treasure",
+    "image": "assets/omastar.webp",
+    "types": ["grass", "steel"],
+    "abilities": ["stormySeas", "magicBounce", "superLuck"],
+    "entries": [
+      "This Pokemon's Yellow shell is made up of a Gold & Platinum alloy, and adorned with various treasure: Silver coins, Crystals, Red Rubies, Blue Sapphires & Pearls. It is capable of breaking open gemstones to eat with ease with its powerful and immensely hard Diamond & Green Emerald jaws. It is often mistaken for a piece of royal treasure and has been stolen from museums more than once. ",
+      "Their Scarlet, X shaped eye can dilate to zoom in, while their Violet pupil dilates to zoom their vision out- allowing them to spot treasure from miles awaY. Its shell acts as a mighty Shield from any predators, and cannot be pierced even with the mightiest Sword. However, not everything is Black & White with these Pokemon, as they are now heavily endangered due to greedy treasure-hunters."
+    ],
+    "evolvesFrom": ["omanyte"]
+  },
+  "kabuto": {
+    "name": "Kabuto",
+    "title": "Skele-Shell",
+    "image": "assets/kabuto.webp",
+    "types": ["bug", "ghost"],
+    "abilities": ["sharpness", "weakArmour"],
+    "entries": [
+      "When threatened, it curls up and plays dead, its eerie patterns glowing faintly in the dark. The eyes on its back function as defensive mechanisms, scaring predators in the dark into thinking it is a much larger creature.",
+      "It uses the faint glow of its many eyes to scavenge the bottom of the ocean. This Pokemon's diet consists of remains that float to the bottom of the sea, especially bones."
+    ],
+    "evolvesInto": ["kabutops"]
+  },
+  "kabutops": {
+    "name": "Kabutops",
+    "title": "Bone-Blade",
+    "image": "assets/kabutops.webp",
+    "types": ["bug", "ghost"],
+    "abilities": ["sharpness", "weakArmour"],
+    "entries": [
+      "People and Pokemon alike used to fear Kabutops and painted images of its ominous glowing eyes and blades. Legends say its fossil holds a lingering will, and when unearthed, the spirit within reawakens to enact vengeance on those who dared to disturb its eternal rest.",
+      "This Pokemon's blades are able to suck the life force from those it cuts.  The wings on this Pokemon's back are no longer functional, but work as balancing appendages for it while it runs and swims."
+    ],
+    "evolvesFrom": ["kabuto"]
+  },
+  "seel": {
+    "name": "Seel",
+    "title": "Kelp Courier",
+    "image": "assets/seel.webp",
+    "types": ["water", "grass"],
+    "abilities": ["thickFat", "sapSipper", "swiftSwim"],
+    "entries": [
+      "This regional Seel often plays the role of attendant in groups of its kind, using its leafy bow-tie and algae moustache to express itself. It mimics human manners and gestures, making it oddly charismatic. It is polite to even the rudest or most aggressive Pokemon and trainers.",
+      "Though young, this Pokémon takes its duties seriously—grooming its kelp accessories daily. Some researchers believe it imitates the noble Dewgong it serves, hoping to grow into royalty itself one day. Seel also serve Dewgong by consuming excess kelp on Dewgong's body to maintain their appearance."
+    ],
+    "evolvesInto": ["dewgong"]
+  },
+  "dewgong": {
+    "name": "Dewgong",
+    "title": "Sovereign Seaweed",
+    "image": "assets/dewgong.webp",
+    "types": ["water", "grass"],
+    "abilities": ["thickFat", "sapSipper", "swiftSwim"],
+    "entries": [
+      "Respected as the sovereign of shallow coasts and seagrass beds, this Dewgong is adorned in living algae by their Seel servants. Calm and diplomatic, it gently maintains harmony among sea creatures. The more well-maintained a Dewgong's beard is, the higher status it becomes amongst its kingdom.",
+      "This kind-hearted Pokémon has adopted a strictly vegetarian diet, feasting only on seagrass presented by its loyal Seel attendants. As a compassionate ruler, it refuses to harm aquatic Pokémon. Its body is protected by thick, wrinkled skin and a layer of adaptive blubber suited to both cool and temperate seas."
+    ],
+    "evolvesFrom": ["seel"]
+  },
+  "krabby": {
+    "name": "Krabby",
+    "title": "Fangclaw",
+    "image": "assets/krabby.webp",
+    "types": ["bug", "dark"],
+    "abilities": ["strongJaw"],
+    "entries": [
+      "When the sun sets, Remix Krabby awakens from its shallow burrows. It scuttles silently through the underbrush, seeking warm-blooded prey. It fears the sun and turns brittle if exposed too long. Its claws are laced with a numbing agent, ensuring its prey cannot scream while being fed upon."
+    ],
+    "evolvesInto": ["kingler"]
+  },
+  "kingler": {
+    "name": "Kingler",
+    "title": "Bloodbite",
+    "image": "assets/kingler.webp",
+    "types": ["bug", "dark"],
+    "abilities": ["strongJaw"],
+    "entries": [
+      "Its hunting technique resembles an ambush predator from a horror film. It waits silently, then snaps its claws with a noise likened to the slam of a coffin. It drains the life force from its prey, leaving only an empty husk behind.",
+      "Some believe the creature's true brain resides inside the claw, guided by the glowing eyes that never blink. Trainers report feeling watched even when the crab is asleep."
+    ],
+    "evolvesFrom": ["krabby"]
+  },
+  "diglett": {
+    "name": "Diglett",
+    "title": "",
+    "image": "assets/diglett.webp",
+    "types": ["fairy", "dark"],
+    "abilities": [],
+    "entries": [
+      "This troubled Diglett struggles with emotional regulation. It produces a strange medicinal powder that it can use to help other Pokemon. In small doses, this medicine heals all sorts of illness and calms anxious Pokemon. In large doses, it creates intense anxiety and violent mood swings, as well as a whooping cough that strains its voice, making it hoarse. However, producing this powder in excess causes it to breath it in constantly since it piles up around the ground near them. It wears its mask to try to prevent itself from getting \"high on its own supply\". It also frequently injures itself by banging its head violently up and down and patches itself up with bandages. Pokemon also listens to loud music to help soothe its mind. Pokemon deeply craves to be the centre of attention, but also desires to help others. What it becomes is up to you!"
+    ],
+    "evolvesInto": ["dugtrio", "alolanDugtrio"]
+  },
+  "dugtrio": {
+    "name": "Dugtrio",
+    "title": "Remedy",
+    "image": "assets/dugtrio.webp",
+    "types": ["fairy", "ground"],
+    "abilities": ["toxicBoost", "flareBoost"],
+    "entries": [
+      "This form of Dugtrio, sometimes called \"Drugtrio\" has founds its true calling despite its troubled youth: helping other Pokemon. Drugtrio can absorb the illnesses of other creatures and heal them thanks to the strange medicinal powder and crystals it produces. However, Drugtrio suffers as a result: the two taller heads absorb illness and take it on themselves. They are constantly under the weather, but seem to be truly dedicated to their job and push through.",
+      "The smaller Pink head not only heals other Pokemon, but it is believed to be the origin of the strange virus known as Pokerus! It is theorized that after curing others of their status afflictions or disease, they pass on Pokerus like a sort of beneficial steroid or antibody! The Pink head thoroughly enjoys her job and keeps the other 2 heads as cheerful as they possibly can be given the circumstances.",
+      "Drugtrio has a face mask-like appendage to prevent other Pokemon from getting sick, and to prevent them from breathing in their own powder. While not nearly as dangerous as Diglett's powder, it can still cause uncomfortable symptoms if taken in excess. Their strange powder is constantly being produced and used up by them, and has a similar texture to chalk or other earthly organic materials."
+    ],
+    "evolvesFrom": ["diglett"]
+  },
+  "alolanDugtrio": {
+    "name": "Alolan Dugtrio",
+    "title": "Rockstar",
+    "image": "assets/alolanDugtrio.webp",
+    "types": ["dark", "electric"],
+    "abilities": ["galvanise", "amplifier"],
+    "entries": [
+      "Unable to control their mood swings, Diglett harnessed its creative energy and desire for attention into stardom- becoming a musician! This Pokemon puts on \"concerts\" for other Pokemon making loud screaming sounds and electronic noises with their mouths. It is unclear if they still breath in some of the mystery powder from Diglett, but many theorize it does.",
+      "This Pokemon's music is quite controversial- it is very loud and aggressive sounding. This Pokemon can also be quite rude to others, showing only care for itself. They aggressively bang their heads in rhythm with their music. Some people are attracted to this personality and so this Pokemon is polarizing amongst the general public. Pokemon in the wild dread its presence as its deafening sounds only stop when it is knocked out."
+    ],
+    "evolvesFrom": ["diglett"]
+  },
+  "voltorb": {
+    "name": "Voltorb",
+    "title": "",
+    "image": "assets/voltorb.webp",
+    "types": ["psychic", "fairy"],
+    "abilities": ["comatose", "badDreams", "energyShield"],
+    "entries": [
+      "This Voltorb was drawn into the Dream World and never returned. Over time, it fused with the surreal landscape, losing its angry demeanor and developing a psychic organ to navigate dreams. It projects illusions through its third eye and is often seen asleep, even while awake.",
+      "Once a volatile bundle of static energy, this Voltorb now hums softly in endless slumber. It no longer explodes, but unravels minds. Its third eye is said to peer into the dreams of those nearby, twisting their desires into visions that feel just a little too real."
+    ],
+    "evolvesInto": ["electrode"]
+  },
+  "electrode": {
+    "name": "Electrode",
+    "title": "",
+    "image": "assets/electrode.webp",
+    "types": ["psychic", "dragon"],
+    "abilities": ["energyShield", "berserk", "neuroforce"],
+    "entries": [
+      "While dreaming very deeply, some suspect that Remix Voltorb tapped in to another dimension- further past the dreamworld... Ultra Space. Whatever it saw in this dream brought it to madness and granted it immense power and the ability to travel between dimensions.",
+      "This Electrode, unlike Voltorb is constantly energized and awake. It can teleport instantaneously, allowing it to manuever with even more speed than Electrode normally could. Its mere presence is an anomaly, and poses great danger to our space time continuum. It causes dimensional rifts to Ultra Space wherever it teleports."
+    ],
+    "evolvesFrom": ["voltorb"]
+  },
+  "cleffa": {
+    "name": "Cleffa",
+    "title": "Starlight",
+    "image": "assets/cleffa.webp",
+    "types": ["ghost", "fairy"],
+    "abilities": [],
+    "entries": [
+      "It emits a gentle light while sleeping, which people cherish as a comforting nightlight. Many say its presence wards off bad dreams and fills the night with soothing warmth and good rest."
+    ],
+    "evolvesInto": ["clefairy"]
+  },
+  "clefairy": {
+    "name": "Clefairy",
+    "title": "Lunar Dream",
+    "image": "assets/clefairy.webp",
+    "types": ["ghost", "fairy"],
+    "abilities": [],
+    "entries": [
+      "It drifts into an unshakably deep slumber under the moonlight. Travelers whisper that its dreams sometimes connect to strange places… and that lingering too close might draw you into them. It is said a Clefairy who dreams too deeply may be visited by the shadow of its cosmic opposite... and never wake up the same."
+    ],
+    "evolvesInto": ["clefable"],
+    "evolvesFrom": ["cleffa"]
+  },
+  "clefable": {
+    "name": "Clefable",
+    "title": "",
+    "image": "assets/clefable.webp",
+    "types": ["ghost", "dragon"],
+    "abilities": ["badDreams"],
+    "entries": [
+      "When bathed in the light of a full moon, some Clefairy fall into a dream so deep that their very form begins to unravel. A shadowy entity slips into their mind, warping their body into a writhing mass of mouths, eyes, and dripping fangs. Two tongues lash within its cavernous maws, ever searching for the dreams of others to devour.",
+      "What was once a serene, peaceful fairy now twists into a dragon of nightmares. Its wings are gone, replaced by jagged fins that slice through the dreamscape. Dozens of crimson eyes blink in unison, each reflecting a different victim's terror. No one knows if the Clefairy remains conscious inside this shell or if it is consumed entirely."
+    ],
+    "evolvesFrom": ["clefairy"]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bug": {
+    "background": "#daea77",
+    "foreground": "#747e40",
+    "name": "Bug"
+  },
+  "dark": {
+    "background": "#745f5f",
+    "foreground": "#251e1e",
+    "name": "Dark"
+  },
+  "dragon": {
+    "background": "#674ea7",
+    "foreground": "#20124d",
+    "name": "Dragon"
+  },
+  "electric": {
+    "background": "#ffd966",
+    "foreground": "#7f6000",
+    "name": "Electric"
+  },
+  "fairy": {
+    "background": "#ead1dc",
+    "foreground": "#c27ba0",
+    "name": "Fairy"
+  },
+  "fighting": {
+    "background": "#cc4125",
+    "foreground": "#5b0f00",
+    "name": "Fighting"
+  },
+  "fire": {
+    "background": "#ff9900",
+    "foreground": "#783f04",
+    "name": "Fire"
+  },
+  "flying": {
+    "background": "#c9daf8",
+    "foreground": "#6d9eeb",
+    "name": "Flying"
+  },
+  "ghost": {
+    "background": "#8e7cc3",
+    "foreground": "#351c75",
+    "name": "Ghost"
+  },
+  "grass": {
+    "background": "#93c47d",
+    "foreground": "#274e13",
+    "name": "Grass"
+  },
+  "ground": {
+    "background": "#d9b547",
+    "foreground": "#5d4a13",
+    "name": "Ground"
+  },
+  "ice": {
+    "background": "#cfe2f3",
+    "foreground": "#6fa8dc",
+    "name": "Ice"
+  },
+  "normal": {
+    "background": "#cccccc",
+    "foreground": "#666666",
+    "name": "Normal"
+  },
+  "poison": {
+    "background": "#a64d79",
+    "foreground": "#4c1130",
+    "name": "Poison"
+  },
+  "psychic": {
+    "background": "#c27ba0",
+    "foreground": "#741b47",
+    "name": "Psychic"
+  },
+  "rock": {
+    "background": "#d5c38c",
+    "foreground": "#5e4a13",
+    "name": "Rock"
+  },
+  "steel": {
+    "background": "#999999",
+    "foreground": "#434343",
+    "name": "Steel"
+  },
+  "water": {
+    "background": "#6fa8dc",
+    "foreground": "#073763",
+    "name": "Water"
+  }
+}
