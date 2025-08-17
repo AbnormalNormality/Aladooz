@@ -235,6 +235,7 @@ div {
 #viewer > .entries-panel > .entries-outer > .entries > * {
   min-height: auto;
   overflow: visible;
+  user-select: text;
 }
 
 #viewer > .types,
@@ -243,7 +244,7 @@ div {
   place-items: center;
   justify-content: space-between;
   gap: var(--size-3);
-  overflow: scroll;
+  overflow: hidden;
 }
 
 #viewer > .types > *,

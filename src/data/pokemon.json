@@ -614,5 +614,25 @@
       "What was once a serene, peaceful fairy now twists into a dragon of nightmares. Its wings are gone, replaced by jagged fins that slice through the dreamscape. Dozens of crimson eyes blink in unison, each reflecting a different victim's terror. No one knows if the Clefairy remains conscious inside this shell or if it is consumed entirely."
     ],
     "evolvesFrom": ["clefairy"]
+  },
+  "plusle": {
+    "name": "Plusle",
+    "title": "Heated-Up",
+    "image": "assets/plusle.webp",
+    "types": ["electric", "fire"],
+    "abilities": [],
+    "entries": [
+      "Its body generates sparks that rapidly raise the air around it to scorching temperatures. When in high spirits, it radiates warmth like a portable heater, but in battle it can unleash waves of blistering heat that warp the air itself. Plusle likes to cuddle with those it trusts, warming them in cold winter months."
+    ]
+  },
+  "minum": {
+    "name": "Minum",
+    "title": "Chilled-Out",
+    "image": "assets/minum.webp",
+    "types": ["electric", "ice"],
+    "abilities": [],
+    "entries": [
+      "This Pokémon lowers the temperature around it with crackling negative charges, creating frosty gusts that feel like an air conditioner on full blast. Despite its chill demeanor, it happily cuddles close to those it trusts, cooling them during the summer months."
+    ]
   }
 }

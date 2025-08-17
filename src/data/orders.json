@@ -51,9 +51,13 @@
     "electrode",
     "cleffa",
     "clefairy",
-    "clefable"
+    "clefable",
+    "plusle",
+    "minum"
   ],
   "revealReverse": [
+    "plusle",
+    "minum",
     "cleffa",
     "clefairy",
     "clefable",
@@ -152,6 +156,8 @@
     "electrike",
     "manectric",
     "megaManectric",
+    "plusle",
+    "minum",
 
     "combee",
     "vespiquen",
