@@ -4,3 +4,8 @@ I worked on this while updating [AloozGallery](https://abnormalnormality.github.
 This version of the website is prioritised for computers, and may not look well on mobile devices.
 
 Links to Dooz can be found in site.
+
+### TO-DO
+
+- Set overflow to hidden on #viewer > .types and #viewer > .abilities
+- Custom scrollbars to fix compatibility?
