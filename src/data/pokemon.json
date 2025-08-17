@@ -634,5 +634,39 @@
     "entries": [
       "This Pokémon lowers the temperature around it with crackling negative charges, creating frosty gusts that feel like an air conditioner on full blast. Despite its chill demeanor, it happily cuddles close to those it trusts, cooling them during the summer months."
     ]
+  },
+  "electrike": {
+    "name": "Electrike",
+    "title": "Festive",
+    "image": "assets/electrike.webp",
+    "types": ["grass", "electric"],
+    "abilities": ["luminescent", "dazzling"],
+    "entries": [
+      "This Pokemon is a favorite amongst many for the positive energy it exudes on all those who see it. It is warm to the touch and loves to cuddle, and will often go foraging for knick knacks to bring to its owner as gifts or presents."
+    ],
+    "evolvesInto": ["manectric"]
+  },
+  "manectric": {
+    "name": "Manectric",
+    "title": "Glowpine",
+    "image": "assets/manectric.webp",
+    "types": ["grass", "electric"],
+    "abilities": ["luminescent", "dazzling"],
+    "entries": [
+      "When in danger, it sends out blinding flashes of light that confuse foes. At night, packs of these Manectric can be seen from miles away in the winter months. Ancient villages are said to have celebrated winter by gathering near this Pokemon, believing its vibrant glow brought good fortune and a calm winter."
+    ],
+    "evolvesInto": ["megaManectric"],
+    "evolvesFrom": ["electrike"]
+  },
+  "megaManectric": {
+    "name": "Mega Manectric",
+    "title": "Frostpike",
+    "image": "assets/megaManectric.webp",
+    "types": ["grass", "ice"],
+    "abilities": ["luminescent"],
+    "entries": [
+      "The power of Mega Evolution has turned this once cheerful Pokemon into a jagged, merciless predator of the tundra. Its icy spines can pierce solid rock and its once glowing body has been replaced by a frozen shimmer. It lashes out even at familiar trainers, requiring a strong bond to tame. However, those who manage to tame one say they can see a glimpse of joy in its eyes in the heat of battle."
+    ],
+    "evolvesFrom": ["manectric"]
   }
 }
