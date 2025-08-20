@@ -56,9 +56,13 @@
     "minum",
     "electrike",
     "manectric",
-    "megaManectric"
+    "megaManectric",
+    "yungoos",
+    "gumshoos"
   ],
   "revealReverse": [
+    "gumshoos",
+    "yungoos",
     "electrike",
     "manectric",
     "megaManectric",
@@ -178,6 +182,8 @@
     "clauncher",
     "clawitzer",
 
+    "yungoos",
+    "gumshoos",
     "mareanie",
     "toxipex",
     "pyukumuku"
