@@ -58,9 +58,13 @@
     "manectric",
     "megaManectric",
     "yungoos",
-    "gumshoos"
+    "gumshoos",
+    "fomantis",
+    "lurantis"
   ],
   "revealReverse": [
+    "lurantis",
+    "fomantis",
     "gumshoos",
     "yungoos",
     "electrike",
@@ -184,6 +188,8 @@
 
     "yungoos",
     "gumshoos",
+    "fomantis",
+    "lurantis",
     "mareanie",
     "toxipex",
     "pyukumuku"

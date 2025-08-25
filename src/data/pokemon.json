@@ -693,5 +693,29 @@
       "In the past, Alolans would construct monuments to appease this Pokemon. Stories have been written of it burning down villages out of anger if it felt under-appreciated. Whether or not these are true or just folktales is unclear."
     ],
     "evolvesInto": ["gumshoos"]
+  },
+  "fomantis": {
+    "name": "Fomantis",
+    "title": "Swirl Sprout",
+    "image": "assets/fomantis.webp",
+    "types": ["grass", "psychic"],
+    "abilities": ["psychicSurge"],
+    "entries": [
+      "Its kaleidoscopic leaves are dried by herbalists and ground into powders said to bring vivid dreams. However, overexposure can lead to hallucinations too intense for the unprepared. It is believed this is a defense mechanism from predators who will try to consume it- confusing and disorienting them before they can even attack.",
+      "Its psychedelic properties are still not fully understood by researchers. Its colorful body releases a faint aroma similar to burning incense. Prolonged exposure has been shown to heighten imagination and creativity. Researchers are exploring potential health benefits. Many will keep Fomantis around for recreational use since it causes hallucinations to those who come near it."
+    ],
+    "evolvesInto": ["lurantis"]
+  },
+  "lurantis": {
+    "name": "Lurantis",
+    "title": "Spiral Shaman",
+    "image": "assets/lurantis.webp",
+    "types": ["grass", "psychic"],
+    "abilities": ["psychicSurge"],
+    "entries": [
+      "When it dances, the jungle itself seems to move with it. It dances gracefully in a beautiful display of swirling colors pulsing in strange rhythms, lulling those who watch into trance-like states.",
+      "It helps injured Pokemon in the jungles where it resides- healing them with its unique abilities. A side effect of its healing abilities are vivid hallucinations. When visited by one, it will feel as if you had woken up from a long, strange dream."
+    ],
+    "evolvesFrom": ["lurantis"]
   }
 }
